@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements and Attributes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>HTML Elements and Attributes</h1>
+    <h2>HTML Elements</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Use</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="code">&lt;head&gt;</td>
+                <td class="name">Head</td>
+                <td>Contains metadata and gives the browser information about the page itself as well as the title of the page.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;title&gt;</td>
+                <td class="name">Page title</td>
+                <td>Contains the tile of the page that will display at the top of the browser tab or window. Housed within the &lt;head&gt;.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;body&gt;</td>
+                <td class="name">Body</td>
+                <td>Only contents enclosed in this element will be displayed on the webpage.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;h1&gt; - &lt;h6&gt;</td>
+                <td class="name">Headings</td>
+                <td>Numbers (1-6) indicate importance and text size within heading. They are displayed in bold text.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;div&gt;</td>
+                <td class="name">Division</td>
+                <td>A container to divide the page into sections that is useful for grouping elements together and customizing CSS.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;p&gt;</td>
+                <td class="name">Paragraph</td>
+                <td>Use to insert a block of text into a webpage.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;span&gt;</td>
+                <td class="name">Span</td>
+                <td>Use to separate a short piece if text on the same line as other content for alternate styling</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;em&gt;</td>
+                <td class="name">Emphasize</td>
+                <td>Used to emphasize text, is usually displayed in italics on webpages.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;strong&gt;</td>
+                <td class="name">Strong</td>
+                <td>Used to highlight text, usually displayed as bold text on webpages.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;br&gt;</td>
+                <td class="name">Line break</td>
+                <td>Aids in creating space in the visual representation of code on a website that adding a line in the code will not accomplish. Does not have a closing tag.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;ul&gt;</td>
+                <td class="name">Unordered list</td>
+                <td>Used to start an unordered list that will display with bullet points.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;ol&gt;</td>
+                <td class="name">Ordered list</td>
+                <td>Used to start an ordered list that will display with numbers before the list items.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;li&gt;</td>
+                <td class="name">List item</td>
+                <td>Must be added inside &lt;ul&gt; and &lt;ol&gt; tags to create the list.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;img&gt;</td>
+                <td class="name">Image</td>
+                <td>Self closing tag used to add an image to your page. Image tags require source and alt text attributes.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;video&gt;</td>
+                <td class="name">Video</td>
+                <td>Used to add video media to your page. Has a closing tag and requires source, width, and height attributes. Can also add a controls attribute.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;a&gt;</td>
+                <td class="name">Anchor</td>
+                <td>Used to create a link to another page, either part of your website or outside of it. Use the target attribute to open this link in a new tab or page.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Semanitc HTML Elements</h2>
+    <p>These elements are used to make your site structure easier to understand, improves its search engine optimization (seo), and helps to make the site more accessible to  mobile devices and users accessing with a screen reader.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Use</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="code">&lt;header&gt;</td>
+                <td class="name">Header</td>
+                <td>A container for navigation links, introductory content or headings (&lt;h1&gt;-&lt;h6&gt;).</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;nav&gt;</td>
+                <td class="name">Navigation</td>
+                <td>Used to define a block of navigation links (menus, tables of contents, etc.) It can be used inside &lt;header&gt; but this is not strictly necessary.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;main&gt;</td>
+                <td class="name">Main</td>
+                <td>Contains the dominant content of the webpage. More descriptive than using &lt;div&gt;, allows screen readers to better determine where the main content of the page is located.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;footer&gt;</td>
+                <td class="name">Footer</td>
+                <td>Located at the bottom of a webpage the footer contains information such as contact information, copyright information, terms of use, site maps and reference and top of page links.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;section&gt;</td>
+                <td class="name">Section</td>
+                <td>Defines elements in a document with similar themes</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;article&gt;</td>
+                <td class="name">Article</td>
+                <td>Holds standalone content like articles, blog posts, comments, etc.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;aside&gt;</td>
+                <td class="name">Aside</td>
+                <td>Used for additional information that enhances another element but isn't required to understand the main content such as bibliographies, end notes, comments, etc.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;figure&gt;</td>
+                <td class="name">Figure</td>
+                <td>Used to encapsulate media for when you want to add an image, illustration, diagram, code snippet, etc.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;figcaption&gt;</td>
+                <td class="name">Figure caption</td>
+                <td>Used to add a caption describing the content of a figure element. It is added inside &lt;figure&gt; and will move with the element if relocation is necessary (unlike using &lt;p&gt;).</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;audio&gt;</td>
+                <td class="name">Audio</td>
+                <td>Used to embed audio content in a webpage using a source link to the file. The type of audio can be specified using the type attribute, helping the browser identify the audio content more easily. Control can also be used on this element.Has a closing tag.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;video&gt;</td>
+                <td class="name">Video</td>
+                <td>Used to define video media added to a page, utilizes attributes to alter video playback like controls, autoplay and loop. Has a closing tag.</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;embed&gt;</td>
+                <td class="name">Embed</td>
+                <td>Embed can incorporated any type of media content on a page, meaning having an embed button on a site means it contains embedable media. It is a self closing tag and is a depreciated element but may still be present in legacy code.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>HTML Attributes</h2>
+    <p>Attributes are added to the opening tag of an element to expand the tag with additional information or change the styling of that element. They consist of a name and a value.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Attribute</th>
+                <th>Name</th>
+                <th>Use</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="code">class</td>
+                <td class="name">Class</td>
+                <td>Second lowest in specificity for selector attributes, a class is meant to be used over multiple elements when you want to style the CSS of those elements in the same fashion.</td>
+            </tr>
+            <tr>
+                <td class="code">id</td>
+                <td class="name">ID</td>
+                <td>An id should only be given to one element as it is the most specific selector you can use. Id allows and element to be styled independantly of any other tag or class and will override any existing CSS on elements it is applied to if there are contradicting styles.</td>
+            </tr>
+            <tr>
+                <td class="code">src</td>
+                <td class="name">Source</td>
+                <td>The src attribute is used to indicate the origin of a link, image, or other media file that you want to embed in your site.</td>
+            </tr>
+            <tr>
+                <td class="code">alt</td>
+                <td  class="name">Alternative text</td>
+                <td>The alt attribute allows you to add alternative text describing an image in case the image can't be displayed by the browser. It also gives screen readers access to the contents of the image for visually impared users and helps in search engine optimization (seo).</td>
+            </tr>
+            <tr>
+                <td class="code">controls</td>
+                <td class="name">Controls</td>
+                <td>The controls attribute adds a set of basic playback controls (play, volume, etc) for video and audio media.</td>
+            </tr>
+            <tr>
+                <td class="code">href</td>
+                <td class="name">Hypertext reference</td>
+                <td>Add href="" to &lt;a&gt; or &lt;link&gt; to indicate the destination for the link. It can be a URL or a relative path if the link is to a document on the same site.</td>
+            </tr>
+            <tr>
+                <td class="code">target</td>
+                <td class="name">Target</td>
+                <td>Target specifies where to open a linked document when clicking on &lt;a&gt; text. Setting its value to "_blank" will open the linked document in a new window or tab.</td>
+            </tr>
+            <tr>
+                <td class="code">width</td>
+                <td class="name">Width</td>
+                <td>Width can be used on &lt;img&gt; and &lt;video&gt; to specify the width of the media on the page.</td>
+            </tr>
+            <tr>
+                <td class="code">height</td>
+                <td class="name">Height</td>
+                <td>Height can be used on &lt;img&gt; and &lt;video&gt; to specify the height of the media on the page.</td>
+            </tr>
+            <tr>
+                <td class="code">type</td>
+                <td class="name">Type</td>
+                <td>Defines the type of the element. Used on &lt;audio&gt;, &lt;button&gt;, &lt;input&gt;, etc to give the browser more information about the element of type of media.</td>
+            </tr>
+            <tr>
+                <td class="code">autoplay</td>
+                <td class="name">Autoplay</td>
+                <td>Indicates audio or video should play upon loading.</td>
+            </tr>
+            <tr>
+                <td class="code">loop</td>
+                <td class="name">Loop</td>
+                <td>Indicates that the audio or video should play on a continuous loop.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
